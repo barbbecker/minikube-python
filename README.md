@@ -62,4 +62,4 @@
 
 ```http://<ip_address>:<port>/app```
 
-<img src="https://drive.google.com/file/d/1AR5AdiiH73i9GKno9kJplkNnphoSMsdp/view?usp=sharing">
+![cluster-info](./image/cluster-info.png)
