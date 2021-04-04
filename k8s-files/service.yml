@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hello-barbara
+  labels:
+    run: hello-barbara
+spec:
+  ports:
+  - port: 5000
+    protocol: TCP
+  selector:
+    app: hello-barbara
+  type: NodePort

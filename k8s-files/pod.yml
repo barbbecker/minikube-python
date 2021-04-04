@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hello-barbara
+spec:
+  containers:
+    - image: bbeckerdarosa/hello-barbara-1:latest
+      name: hello-barbara-1
+      imagePullPolicy: Always
+      resources: {}
+      ports:
+        - containerPort: 5000
